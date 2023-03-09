@@ -11,7 +11,7 @@ int main(void) {
 		if (i == j)
 			sum += i;
 	}
-	printf("0부터 100까지 소수의 합 :%d\n", sum);
+	printf("0부터 100까지중 소수의 합 :%d\n", sum);
 	system("pause");
 	return 0;
 
