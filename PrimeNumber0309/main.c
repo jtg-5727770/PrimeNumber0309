@@ -16,7 +16,7 @@ int main(void) {
 			printf("%d ", i);
 		}
 	}
-	printf("\n0부터 100까지중 소수의 갯수 :%d\n", num);
+	printf("\n0부터 100까지중 소수의 개수 :%d\n", num);
 	printf("0부터 100까지중 소수의 합 :%d\n", sum);
 	system("pause");
 	return 0;
