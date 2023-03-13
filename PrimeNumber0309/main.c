@@ -4,8 +4,8 @@ int main(void) {
 	int i, j;
 	int sum = 0;
 	int num = 0;
-
-	for (i = 2; i <= 100; i++) {
+	printf("0부터 100까지 소수:");
+	for (i = 0; i <= 100; i++) {
 		for (j = 2; j < i; j++) {
 			if (i % j == 0)
 				break;
